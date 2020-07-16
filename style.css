@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+.container header {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #E07A5F;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: #F4F1DE;
+}
+
+header h1 {
+    padding-left: 5vw;
+}
+
+
+
+.container nav {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #E07A5F;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+nav ul li {
+    color: #F4F1DE;
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+nav ul li:hover {
+    background-color: #81B29A;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.container .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #E07A5F;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.redes a {
+    color: #F4F1DE;
+    padding: 0 2vw 0 2vw;
+}
+
+main {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(img/fundo2.png);
+    background-size: cover;
+}
+
+main img {
+    position: absolute;
+    left: 15vw;
+    top: 5vh;
+
+}
+
+
